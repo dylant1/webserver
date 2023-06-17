@@ -1,0 +1,17 @@
+General:
+
+What is a proper request?
+Different conditions that would result in these responses: 200 OK, 400 Bad Request, 403 Forbidden,
+404 Not Found, 500 Internal Service Error, and 501 Not Implemented
+
+
+Sockets:
+1. Create a socket
+2. Bind socket to address
+3. Listen on the address
+4. Block on Accept until the connection is made
+5. Read on the connected socket
+6. Figure out how to respond
+7. Write back on the connected socket
+8. Close the connection
+9. Go back to blocking on accept
